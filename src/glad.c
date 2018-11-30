@@ -7,7 +7,6 @@
     APIs: gl=4.5
     Profile: compatibility
     Extensions:
-        GL_KHR_debug
     Loader: True
     Local files: False
     Omit khrplatform: False
@@ -21,7 +20,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <glad/glad.h>
+//#include <glad/glad.h>
 
 static void* get_proc(const char *namez);
 
