@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <string.h>
 #include <assert.h>
-
+//1
 static double s_double = 1.0; // 3ff0 0000 0000 0000
 
 static uint8_t* AMFWriteInt16(uint8_t* ptr, const uint8_t* end, uint16_t value)
