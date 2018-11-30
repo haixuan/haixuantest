@@ -11,7 +11,7 @@
 
 #define FLV_VIDEO_KEY_FRAME	1
 
-#define N_FLV_HEADER		9		// DataOffset included
+#define N_FLV_HEADER		9		//
 #define N_TAG_HEADER		11		// StreamID included
 #define N_TAG_SIZE			4		// previous tag size
 
